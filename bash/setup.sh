@@ -38,11 +38,11 @@ install_cass() {
             install_ycsb
             return
             ;;
-        abd | abdOpt)
-            git clone https://github.com/ZezhiWang/cassandra.git
+        abd | abdOpt | 'abd-machine-time' | bsr)
+            git clone https://github.com/Dariusrussellkish/cassandra.git
             ;;
         0d4* | treasErasure | ErasureMemory | charTreas | treasWithLog | OreasNoLog | treasWithLog)  # 0d464cd25ffbb5734f96c3082f9cc35011de3667
-            git clone https://github.com/yingjianwu199868/cassandra.git
+	    git clone https://github.com/Dariusrussellkish/cassandra.git
             ;;
     esac
 
